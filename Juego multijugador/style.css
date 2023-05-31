@@ -1,0 +1,68 @@
+.container{
+    width: 624px;
+    height: 624px;
+    border: 1px  solid rgb(97, 0, 183);
+    display:flex;
+    justify-content: center;
+    margin-right: 400px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: rgb(13, 43, 177);
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.objetivo{
+    background-color: green;
+}
+
+.j1{
+    background-color: orange;
+}
+
+.j2{
+    background-color: rgb(250, 0, 0);
+}
+body{
+    display: flex;
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    justify-content:flex-end;
+    margin-right:55px; 
+    margin-top: 55px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marcador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#jugador1{
+    display: flex;
+    background-color: wheat;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+#jugador2{
+    display: flex;
+    background-color: wheat;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+#reiniciar{
+    display: flex;
+    width: 200px;
+    height: 100px;
+}
